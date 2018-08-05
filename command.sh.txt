@@ -1,0 +1,2 @@
+find -name .git -prune -o -type d -empty -print
+find . -type d -empty -exec touch {}/.gitkeep \;
